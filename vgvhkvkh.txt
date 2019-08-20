@@ -1,0 +1,52 @@
+var a=4
+var z=4**3
+console.log(z)
+var b=2
+var y=Math.pow(2,3)
+console.log(y)
+///////////////////////////////
+var a=6
+var b=3
+var z,d,q,w
+var sign=prompt("Insert the operation")
+if ("*"==sign) 
+{ var z=a*b
+  console.log(z)
+}
+else{ 
+  var d=a+b
+console.log(d)
+
+}
+
+if ("-"==sign)
+{
+  var w=a-b
+  console.log(w)
+  
+}
+  
+
+else {
+  q=a/b
+  console.log(q)
+}
+///////////////////////////
+var arr=[678,45,67,89,23,545,188,293]
+var say = 0
+for(var i=0 ; i<arr.length;i++)
+{ say++
+}
+console.log(say)
+//////////////////////////
+  var arr=[678,"Freelance",45,67,89,"Raymond",23,"true","Michael","Joseph",545,188,293]
+  var say=0
+  for (var i in arr)
+ { 
+   if (typeof arr[i]=="string")
+     { 
+    
+       say++
+     }
+ }
+console.log(say)
